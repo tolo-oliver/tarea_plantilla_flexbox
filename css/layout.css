@@ -4,15 +4,17 @@ body {
   height: 100vh;
 }
 
-.header {
-}
 .hero-section {
-    background-color:red
+    background-color:red;
+    height:20vh;
+
 }
 .hero-section__hero {
+
 }
 .contentSidebar {display: flex;
     width:100vw;
+    height:60vh;
 }
 .contentSidebar__content {
     background-color: green;
@@ -20,7 +22,7 @@ body {
 }
 .contentSidebar__sidebar {
     background-color:purple;
-    flex-grow: 1;
+    flex-grow: 0.8;
 }
 .footer {
 }
