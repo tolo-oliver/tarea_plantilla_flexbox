@@ -1,2 +1,26 @@
 /* LAYOUT */
 /* ***** */
+body {
+  height: 100vh;
+}
+
+.header {
+}
+.hero-section {
+    background-color:red
+}
+.hero-section__hero {
+}
+.contentSidebar {display: flex;
+    width:100vw;
+}
+.contentSidebar__content {
+    background-color: green;
+    flex-grow: 1;
+}
+.contentSidebar__sidebar {
+    background-color:purple;
+    flex-grow: 1;
+}
+.footer {
+}
